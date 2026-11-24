@@ -1,5 +1,4 @@
 
-
 import Link from "next/link";
 
 const projects = [
@@ -47,13 +46,20 @@ const services = [
 export default function ProfessionalDemo() {
   return (
     <main className="min-h-screen bg-[#F8F7F3] text-[#25251F]">
-      {/* Demonstration notice */}
-      <div className="border-b border-black/10 bg-[#EEECE5] px-6 py-3 text-center text-xs tracking-wide text-[#66645D]">
-        Professional website demonstration ·{" "}
-        <Link href="/services" className="underline underline-offset-4">
-          Meridian Digital Studio
-        </Link>
-      </div>
+
+     {/* DEMO NOTICE */}
+
+  <div className="mx-auto flex max-w-7xl items-center justify-between">
+
+
+    <Link
+      href="/services"
+      className="underline underline-offset-4 transition hover:text-[#c5cbbd]"
+    >
+      View packages
+    </Link>
+  </div>
+
 
       {/* Header */}
       <header className="mx-auto flex max-w-7xl items-center justify-between px-6 py-7 md:px-10">

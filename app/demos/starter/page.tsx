@@ -26,13 +26,18 @@ export default function StarterDemo() {
   return (
     <main className="min-h-screen bg-white text-[#20241f]">
 
-      {/* DEMO NOTICE */}
-      <div className="bg-[#20241f] px-6 py-2 text-center text-xs text-white">
-        Website demonstration by Meridian Digital Studio
-        <Link href="/services" className="ml-2 underline underline-offset-4">
-          View packages
-        </Link>
-      </div>
+    {/* DEMO NOTICE */}
+<div className="bg-[#20241f] px-6 py-3 text-xs text-white">
+  <div className="mx-auto flex max-w-7xl items-center justify-between">
+    <Link
+      href="/services"
+      className="transition hover:text-[#c5cbbd]"
+    >
+       ← Back to viewing services
+    </Link>
+
+  </div>
+  </div>
 
       {/* HEADER */}
       <header className="border-b border-[#eaeae5]">

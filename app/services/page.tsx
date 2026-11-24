@@ -123,31 +123,7 @@ export default function ServicesPage() {
 
       </header>
 
-      {/* Hero */}
-      <section className="mx-auto max-w-7xl px-6 pb-20 pt-20 md:px-10 md:pb-28 md:pt-28">
-        <p className="mb-7 text-xs uppercase tracking-[0.25em] text-[#888880]">
-          What we offer
-        </p>
 
-        <h1 className="max-w-4xl text-5xl font-normal leading-[1.12] tracking-tight md:text-7xl">
-          More value. Better websites. Fairer prices.
-        </h1>
-
-        <div className="mt-10 flex flex-col justify-between gap-8 md:flex-row md:items-end">
-          <p className="max-w-xl text-base leading-8 text-[#777770]">
-            We create thoughtful, modern websites for businesses that want
-            to establish their presence online. Clear pricing, considered
-            design and solutions built around your needs.
-          </p>
-
-          <Link
-            href="#packages"
-            className="w-fit border-b border-[#171717] pb-2 text-sm transition-colors hover:text-[#888880]"
-          >
-            Explore our packages →
-          </Link>
-        </div>
-      </section>
 
       {/* Packages */}
       <section
@@ -345,29 +321,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Contact CTA */}
-      <section className="mx-auto max-w-7xl px-6 py-24 text-center md:px-10 md:py-32">
-        <p className="mb-5 text-xs uppercase tracking-[0.25em] text-[#888880]">
-          Have something in mind?
-        </p>
-
-        <h2 className="mx-auto max-w-2xl text-4xl font-normal leading-tight tracking-tight md:text-6xl">
-          Let's build something worthwhile.
-        </h2>
-
-        <p className="mx-auto mt-6 max-w-lg text-sm leading-7 text-[#777770]">
-          Tell us a little about your business and what you are looking
-          for. We can help you find the right solution.
-        </p>
-
-        <Link
-          href="/contact"
-          className="mt-9 inline-block border border-[#171717] px-8 py-4 text-xs transition-colors hover:bg-[#171717] hover:text-white"
-        >
-          Get in touch →
-        </Link>
-      </section>
-
+     
       {/* Footer */}
       <footer className="border-t border-black/10 px-6 py-8 md:px-10">
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-4 text-xs text-[#777770] md:flex-row">
