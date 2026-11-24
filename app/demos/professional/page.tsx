@@ -52,12 +52,7 @@ export default function ProfessionalDemo() {
   <div className="mx-auto flex max-w-7xl items-center justify-between">
 
 
-    <Link
-      href="/services"
-      className="underline underline-offset-4 transition hover:text-[#c5cbbd]"
-    >
-      View packages
-    </Link>
+    
   </div>
 
 
